@@ -23,7 +23,7 @@ WebDriver driver;
 	@Given("^user is on homepage$")
 	public void user_is_on_homepage() throws Throwable {
 	   
-		System.setProperty("webdriver.chrome.driver", "C:/Drivers/chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver", "Drivers/chromedriver.exe");
         driver= new ChromeDriver();
         driver.get("https://dojo.github.io/examples/widget-showcase/");
         driver.manage().window().maximize();
